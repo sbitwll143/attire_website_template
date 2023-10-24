@@ -1,0 +1,85 @@
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.section-1,
+.section-3,
+.section-4
+{
+    position: relative;
+}
+.content-align,
+.content-align-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.content-align h1{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 4vw;
+    margin-right: 10px;
+}
+.content-align-1 h1{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 3.3vw;
+    margin-right: 10px;
+}
+.content-align i,
+.content-align-1 i
+{
+    color: #fff;
+    font-size: 2vw;
+}
+
+.section-2-left, .section-2-right{
+    position: relative;
+}
+.section-2-left-content-align{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+}
+.section-2-right-content-align{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+}
+.section-2-left-content-align h2,
+.section-2-right-content-align h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin-right: 10px;
+
+}
+
+.section-2-left-content-align i,
+.section-2-right-content-align i{
+    color: #fff;
+    font-size: 2vw;
+}
+.section-2-left-content-align a,
+.section-2-right-content-align a{
+   text-decoration: none;
+}
