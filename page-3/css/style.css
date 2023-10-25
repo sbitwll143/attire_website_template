@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.banner-img{
+    background: url('/page-3/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height: 80vh;
+    width: 100%;
+  
+}
+
+.banner-img h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: Volkhov;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.div-size{
+    width: 320px;
+    position: relative;
+   
+}
+
+.div-size:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 1;
+}
+.div-size img{
+    width: 100%;
+}
+.hover-visible{
+    opacity: 0;
+}
+.hover-visible:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+h4, p{
+    color: #484848;
+}
+a{
+    text-decoration: none!important;
+    color: inherit;
+    color: #484848!important;
+}
+
+.div-size span {
+    position: absolute;
+    font-size: 30px;
+    right: 5%;
+    top: 3%;
+} 
+.view-all{
+    text-align: center;
+}
+.view-all button{
+    
+    padding: 11px 61px 11px 60px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(108deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+
+box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+outline: none!important;
+border: none;
+border-radius: 8px;
+
+   
+}
