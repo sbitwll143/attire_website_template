@@ -11,7 +11,7 @@ body{
 }
 
 .banner-img{
-    background: url('/page-3/images/banner.png');
+    background: url('../images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: cover;
