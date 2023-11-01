@@ -221,3 +221,26 @@ border-radius: 8px;
     height: 100px;
     width: 250px;
   }
+
+  .shoes-n-jacket-section{
+   margin-block: 100px;
+  }
+  .shoes-bg-color{
+    background-color: #D9C9B2;
+    max-height: 400px;
+  }
+  .shoes-font-size{
+    font-size: 3.5rem;
+    font-family: 'Volkhov', serif;
+  }
+  .jaket-div{
+    max-height: 400px;
+  }
+  .jaket-div h1{
+    /* background: linear-gradient(93deg, #B18B26 22.28%, #F5E590 63.98%, #CAAC26 102.23%);
+    -webkit-background-clip: text; */
+    font-size: 3rem;
+    background: -webkit-linear-gradient(93deg, #B18B26 22.28%, #F5E590 63.98%, #CAAC26 102.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
