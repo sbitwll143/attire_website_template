@@ -166,6 +166,7 @@ border-radius: 8px;
 
 .font-style{
     font-family: 'Volkhov', serif;
+    font-size: 2.5rem;
 }
 
 @-webkit-keyframes scroll {
@@ -244,3 +245,12 @@ border-radius: 8px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .breadcrumb{
+    padding: 0.5rem 0!important;
+  }
+  .gallary-section{
+    margin-block: 200px;
+  }
+
+ 
