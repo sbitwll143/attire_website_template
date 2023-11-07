@@ -19,6 +19,33 @@ body{
     overflow-x: hidden;
 }
 
+/* Menu bar CSS */
+
+.navbar-brand img {
+  width: 80px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+.navbar-dark .navbar-toggle{
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+
 .shopping-button button{
     padding: 11px 61px 11px 60px;
     justify-content: center;
@@ -593,3 +620,4 @@ outline: none;
   transform: translate(-50px, -50px);
 }
 }
+
