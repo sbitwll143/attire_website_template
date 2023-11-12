@@ -14,13 +14,23 @@ body{
     background: url('../image/men-cosmetic-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+  
+}
+.women-fashion-banner-img{
+    background: url('../image/women-fashion/women-fashion-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 80vh;
     width: 100%;
   
 }
 
-.banner-img h1{
+.banner-img h1,
+.women-fashion-banner-img h1{
     position: absolute;
     top: 50%;
     left: 50%;
