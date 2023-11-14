@@ -37,10 +37,20 @@ body{
     width: 100%;
   
 }
+.men-accessories-banner-img{
+    background: url('../image/men-accssories/men-accessories-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+  
+}
 
 .banner-img h1,
 .women-fashion-banner-img h1,
-.men-perfume-banner-img h1
+.men-perfume-banner-img h1,
+.men-accessories-banner-img h1
 {
     position: absolute;
     top: 50%;
