@@ -46,11 +46,31 @@ body{
     width: 100%;
   
 }
+.women-accessories-perfume-banner-img{
+    background: url('../image/women-accessories-perfume/women-accessories-perfume-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+  
+}
+.thai-mart-banner-img{
+    background: url('../image/thai-mart/thai-mart-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+  
+}
 
 .banner-img h1,
 .women-fashion-banner-img h1,
 .men-perfume-banner-img h1,
-.men-accessories-banner-img h1
+.men-accessories-banner-img h1,
+.women-accessories-perfume-banner-img h1,
+.thai-mart-banner-img h1
 {
     position: absolute;
     top: 50%;
