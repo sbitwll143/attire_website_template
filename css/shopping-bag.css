@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.shopping-bag-banner{
+    background: url('../image/shopping-bag/shopping-bag-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.shopping-bag-banner h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: Volkhov;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
